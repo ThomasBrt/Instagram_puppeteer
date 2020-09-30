@@ -1,0 +1,25 @@
+{
+    "base_url": "https://www.instagram.com/",
+    "username": "kokotbt1234",
+    "password": "mdpkokotbt1234",
+    "settings":{
+        "headless":false,
+        "max_amount_publications":9,
+        "max_publications_in_row": 3,
+        "max_rows_in_page": 3
+    },
+    "selectors":{
+        "username_field":"input[name='username']",
+        "password_field":"input[name='password']",
+        "login_button":"button[type='submit']",
+        "record_later_button":"#react-root > section > main > div > div > div > div > button",
+        "set_notifications_later_button":"body > div > div > div > div > div > button",
+        "first_publication_link":"#react-root > section > main > article > div > div > div > div:nth-child(1) > div:nth-child(1) > a",
+        "like_button":"body > div > div > div > article > div > section > span > button",
+        "like_button_svg":"body > div > div > div > article > div > section > span > button > div > span > svg",
+        "follow_button":"body > div > div > div > article > header > div > div > div > button",
+        "follow_button_status":"body > div > div > div > article > header > div > div > div button",
+        "right_pagination_button":".coreSpriteRightPaginationArrow",
+        "username":"body > div > div> div > article > header > div > div > div > span > a"
+    }
+}
